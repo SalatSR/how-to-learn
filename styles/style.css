@@ -7,19 +7,91 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* выше создали флекс контейнер для прижатия подвала */
 }
+
+/* Header */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
 }
+
+.logo {
+  position: absolute;
+  display: block;
+}
+
+/* ниже установили позиционирование для логотипа в header */
+.logo_place_header {
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__title {
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  max-width: 730px;
+}
+
+/* ниже установили позиционирование для заголовка в header */
+.header__title_place_header {
+  align-self: center;
+  margin-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  position: absolute;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  max-width: 388px;
+}
+
+/* ниже установили позиционирование для подзаголовка в header */
+.header__subtitle_place_header {
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__main-illustration {
+  display: block;
+  position: absolute;
+  max-height: 608px;
+  max-width: 765px;
+}
+
+.header__main-illustration_place_header {
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* TODO разобраться с высотой синего квадрата при высоте header меньше 632px */
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  background-color: #2f80ed;
+  position: absolute;
   height: 568px;
   width: 568px;
+}
+
+.header__square-pic_place_header {
+  top: 64px;
+  right: 0;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
