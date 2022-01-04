@@ -1,3 +1,5 @@
+@import url(fonts.css);
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -6,7 +8,6 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
   display: flex;
   flex-direction: column;
   /* выше создали флекс контейнер для прижатия подвала */
@@ -37,9 +38,6 @@
 }
 
 .header__title {
-  font-size: 102px;
-  font-weight: bold;
-  line-height: 96px;
   max-width: 730px;
 }
 
@@ -52,9 +50,6 @@
 
 .header__subtitle {
   position: absolute;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
   max-width: 388px;
 }
 
@@ -114,10 +109,6 @@
 
 .two-columns__brief {
   align-self: flex-start;
-  color: #2f80ed;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
   margin: 0;
   width: 175px;
 }
@@ -128,9 +119,6 @@
 }
 
 .two-columns__paragraph {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
   margin: 30px 0 0;
 }
 
@@ -138,27 +126,15 @@
   margin-top: 0;
 }
 
-.two-columns__span-accent {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-}
-
 /* digits */
 
 .section-title {
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1.15;
   margin: 0 auto;
   text-align: center;
   width: 60%;
 }
 
 .section-subtitle {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
   margin: 20px auto 0;
   text-align: center;
   width: 60%;
@@ -178,23 +154,16 @@
 }
 
 .table__heading {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.15;
   margin: 0;
 }
 
 .table__text {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
   margin: 20px 0 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
 }
