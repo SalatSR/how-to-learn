@@ -102,3 +102,48 @@
   font-weight: normal;
   line-height: 51px;
 }
+
+/* kaufman */
+
+/* End of main */
+
+/* Footer */
+
+.footer__author {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.footer__author_theme_dark {
+  color: #fff;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.footer__column-heading_theme_dark  {
+  color: #fff;
+}
+
+.footer__column-link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.footer__column-link:active {
+  color: red;
+}
+
+.footer__column-link:visited {
+  color: #f2f2f2;
+}
+
+.footer__column-link_theme_dark:link {
+  color: #fff;
+}
