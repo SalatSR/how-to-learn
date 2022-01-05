@@ -26,12 +26,12 @@
 }
 
 .logo {
-  position: absolute;
   display: block;
 }
 
 /* ниже установили позиционирование для логотипа в header */
 .logo_place_header {
+  position: absolute;
   top: 30px;
   left: 64px;
   z-index: 2;
@@ -218,4 +218,16 @@
   top: 0;
   right: -210px;
   z-index: 0;
+}
+
+/* End of main */
+
+/* Footer */
+
+.footer {
+  padding: 60px 0 40px;
+}
+
+.footer_theme_dark {
+  background-color: #000;
 }
