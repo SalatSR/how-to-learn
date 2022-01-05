@@ -51,10 +51,18 @@
   line-height: 1.15;
 }
 
+.section-title_theme_dark {
+  color: #fff;
+}
+
 .section-subtitle {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
 }
 
 .table__heading {
@@ -72,4 +80,25 @@
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   color: white;
+}
+
+/* feynman */
+
+.feynman__title {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+}
+
+.feynman__link {
+  color: #2f80ed;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
 }
