@@ -204,10 +204,13 @@
 /* kaufman */
 
 .kaufman {
-  background-color: #000;
   overflow: hidden;
   padding: 90px 0;
   position: relative;
+}
+
+.kaufman_theme_dark {
+  background-color: #000;
 }
 
 .kaufman__triangle {
