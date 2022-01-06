@@ -26,12 +26,16 @@
 }
 
 .logo {
-  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* ниже установили позиционирование для логотипа в header */
 .logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
+  height: 32px;
+  width: 183px;
   top: 30px;
   left: 64px;
   z-index: 2;
@@ -226,19 +230,55 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  background-size: contain;
+  height: 35px;
+  width: 183px;
 }
 
 .footer {
-  min-height: 350px;
   padding: 60px 0 40px;
-}
-
-.footer__columns {
-  width: 90%;
-  margin: 0 auto;
 }
 
 .footer_theme_dark {
   background-color: #000;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 250px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  margin: 18px 0;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-links_place_image {
+  align-items: baseline;
+}
+
+.footer__social-icon {
+  margin: 0 10px 0 0;
 }
