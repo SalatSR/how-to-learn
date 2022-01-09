@@ -228,11 +228,8 @@
 }
 
 .footer {
-  padding: 60px 0 40px;
-}
-
-.footer_theme_dark {
   background-color: #1f1f1f;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
@@ -264,12 +261,9 @@
 }
 
 .footer__column-links {
+  align-items: baseline;
   display: flex;
   flex-direction: column;
-}
-
-.footer__column-links_place_image {
-  align-items: baseline;
 }
 
 .footer__social-icon {
