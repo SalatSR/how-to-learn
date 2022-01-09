@@ -43,10 +43,6 @@
 
 .header__title {
   max-width: 730px;
-}
-
-/* ниже установили позиционирование для заголовка в header */
-.header__title_place_header {
   align-self: center;
   margin-left: 64px;
   z-index: 2;
@@ -55,10 +51,6 @@
 .header__subtitle {
   position: absolute;
   max-width: 388px;
-}
-
-/* ниже установили позиционирование для подзаголовка в header */
-.header__subtitle_place_header {
   bottom: 30px;
   left: 64px;
   z-index: 2;
@@ -69,10 +61,6 @@
   position: absolute;
   max-height: 608px;
   max-width: 765px;
-}
-
-/* ниже установили позиционирование для главной картинки в header */
-.header__main-illustration_place_header {
   bottom: 0;
   right: 0;
   z-index: 1;
@@ -83,10 +71,6 @@
   position: absolute;
   height: 568px;
   width: 568px;
-}
-
-/* ниже установили позиционирование для квадрата в header */
-.header__square-pic_place_header {
   top: 64px;
   right: 0;
   z-index: 0;
