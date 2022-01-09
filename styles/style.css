@@ -44,7 +44,7 @@
 .header__title {
   max-width: 730px;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 2;
 }
 
@@ -53,7 +53,13 @@
   max-width: 388px;
   bottom: 30px;
   left: 64px;
+  margin: 0;
   z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
