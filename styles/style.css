@@ -129,14 +129,14 @@
   margin: 0 auto;
   text-align: center;
   width: 60%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .section-subtitle {
   margin: 20px auto 0;
   text-align: center;
   width: 60%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .table {
@@ -201,6 +201,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
 }
 
 /* kaufman */
