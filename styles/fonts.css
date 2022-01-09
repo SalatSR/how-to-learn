@@ -1,19 +1,11 @@
-.page {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+
 
 /* Header */
 
 .header__title {
-  font-size: 102px;
-  font-weight: bold;
-  line-height: 96px;
 }
 
 .header__subtitle {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
 }
 
 /* End of header */
@@ -23,83 +15,41 @@
   /* discription */
   
 .two-columns__brief {
-  color: #2f80ed;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
 }
 
   
 .two-columns__paragraph {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
 }
 
-.two-columns__span-accent {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-}
 
 /* digits */
 
 .section-title {
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1.15;
 }
 
-.section-title_theme_dark {
-  color: #fff;
-}
 
 .section-subtitle {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-}
-
-.section-subtitle_theme_dark {
-  color: #fff;
 }
 
 .table__heading {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.15;
 }
 
 .table__text {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  color: white;
 }
 
 /* feynman */
 
 .feynman__title {
-  font-size: 120px;
-  font-weight: bold;
-  line-height: 1.15;
 }
 
 .feynman__subtitle {
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
 }
 
 .feynman__link {
-  color: #2f80ed;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
 }
 
 /* kaufman */
@@ -109,31 +59,13 @@
 /* Footer */
 
 .footer__author {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
-  color: #fff;
 }
 
 .footer__column-heading {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-  color: #fff;
 }
 
 .footer__column-link {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
-  text-decoration: none;
 }
 
-.footer__column-link:active {
-  color: #2f80ed;
-}
 
-.footer__column-link:visited {
-  color: #f2f2f2;
-}
 
