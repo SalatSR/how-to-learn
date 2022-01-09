@@ -129,12 +129,14 @@
   margin: 0 auto;
   text-align: center;
   width: 60%;
+  z-index: 2;
 }
 
 .section-subtitle {
   margin: 20px auto 0;
   text-align: center;
   width: 60%;
+  z-index: 2;
 }
 
 .table {
