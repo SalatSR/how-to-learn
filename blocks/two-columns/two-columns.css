@@ -3,5 +3,6 @@
   align-items: stretch;
   justify-content: space-between;
   width: 80%;
+  min-width: 784px;
   margin: 0 auto;
 }
