@@ -9,7 +9,6 @@
 }
 
 .rotation {
-  border: 1px solid red;
   animation-name: rotation;
   animation-duration: 20s;
   animation-timing-function: linear; 
