@@ -2,6 +2,7 @@
   font-size: 30px;
   font-weight: normal;
   line-height: 42px;
+  align-self: flex-start;
   text-decoration: none;
   color: #2f80ed;
 }
