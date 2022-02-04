@@ -1,5 +1,8 @@
 ﻿.table__cell {
-  margin-top: 60px;
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin: 60px 0 0;
   width: 250px;
   z-index: 1;
 }
